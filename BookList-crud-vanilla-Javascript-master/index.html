@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-group">
+            <h1>Book List</h1>
+        </div>
+        <form id="book-form">
+            <div class="form-group">
+                <label>Book Title</label>
+                <input id="book_title" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label>Book Author</label>
+                <input id="book_author" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label>Book ISBN</label>
+                <input id="book_isbn" class="form-control" />
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Save</button>
+            </div>
+        </form>
+
+        <table id="book-list" class="table">
+            <thead>
+                <tr>
+                    <th>Book Name</th>
+                    <th>Book Author</th>
+                    <th>Book ISBN</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            
+        </table>
+    </div>
+
+</body>
+<script src="./app2.js"></script>
+</html>
